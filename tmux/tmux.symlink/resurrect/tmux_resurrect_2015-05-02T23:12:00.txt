@@ -1,0 +1,4 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver/Development/smt/smt-api	0	vim	:vim
+pane	0	0	:bash	1	:*	1	:/home/oliver/Downloads/sgminer_v5.1_2015-03-09	1	bash	:
+window	0	0	1	:*	5175,205x51,0,0[205x33,0,0,0,205x17,0,34,1]
+state	0	

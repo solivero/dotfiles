@@ -1,0 +1,11 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver	1	bash	:
+pane	webdevelopment	0	:killergame	0	:-	0	:/home/oliver/Development/killergame	0	vim	:vim
+pane	webdevelopment	0	:killergame	0	:-	1	:/home/oliver/Development/killergame	1	bash	:
+pane	webdevelopment	0	:killergame	0	:-	2	:/home/oliver/Development/killergame	0	bash	:
+pane	webdevelopment	1	:smt-api	1	:*	0	:/	1	ssh	:ssh smt@web447.webfaction.com
+pane	webdevelopment	1	:smt-api	1	:*	1	:/home/oliver/Development/smt/smt-frontend/dist	0	bash	:
+pane	webdevelopment	1	:smt-api	1	:*	2	:/home/oliver/Development/smt/smt-api	0	vim	:vim
+window	0	0	1	:*	b31e,205x51,0,0,1
+window	webdevelopment	0	0	:-	1ef7,205x51,0,0[205x34,0,0,2,205x16,0,35{110x16,0,35,3,94x16,111,35,4}]
+window	webdevelopment	1	1	:*	5f59,205x51,0,0[205x34,0,0,5,205x16,0,35{110x16,0,35,6,94x16,111,35,7}]
+state	webdevelopment	0

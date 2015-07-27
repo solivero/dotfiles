@@ -1,0 +1,10 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver/Development/prog1	0	vim	:vim
+pane	0	0	:bash	1	:*	1	:/home/oliver/Development/prog1	1	bash	:
+pane	0	1	:bash	0	:-	0	:/home/oliver/Development/prog1	1	bash	:
+pane	1	0	:vim	1	:*	0	:/home/oliver/Development/glass	0	vim	:vim
+pane	1	0	:vim	1	:*	1	:/home/oliver/Development/glass	1	git	:git push
+pane	1	0	:vim	1	:*	2	:/home/oliver	0	bash	:
+window	0	0	1	:*	d99e,80x23,0,0[80x20,0,0,1,80x2,0,21,2]
+window	0	1	0	:-	ae60,80x23,0,0,3
+window	1	0	1	:*	b50e,205x50,0,0[205x31,0,0,4,205x18,0,32{103x18,0,32,5,101x18,104,32,6}]
+state	1	0

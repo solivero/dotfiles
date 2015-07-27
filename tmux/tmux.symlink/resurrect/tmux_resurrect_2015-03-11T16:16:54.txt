@@ -1,0 +1,11 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver	1	bash	:
+pane	webdevelopment	0	:killergame	0	:-	0	:/home/oliver/Development/killergame	1	vim	:vim
+pane	webdevelopment	0	:killergame	0	:-	1	:/home/oliver/Development/killergame	0	bash	:
+pane	webdevelopment	0	:killergame	0	:-	2	:/home/oliver/Development/killergame	0	bash	:
+pane	webdevelopment	1	:smt-api	1	:*	0	:/home/oliver/Development/smt/smt-api	1	bash	:
+pane	webdevelopment	1	:smt-api	1	:*	1	:/	0	bash	:
+pane	webdevelopment	1	:smt-api	1	:*	2	:/home/oliver/Development/smt/smt-api	0	vim	:vim
+window	0	0	1	:*	ae5e,80x23,0,0,1
+window	webdevelopment	0	0	:-	4b60,80x23,0,0[80x20,0,0,2,80x2,0,21{39x2,0,21,3,40x2,40,21,4}]
+window	webdevelopment	1	1	:*	2367,80x23,0,0[80x20,0,0,5,80x2,0,21{39x2,0,21,6,40x2,40,21,7}]
+state	webdevelopment	0

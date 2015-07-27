@@ -1,0 +1,7 @@
+pane	0	0	:grunt	1	:*	0	:/home/oliver/Development/smt/smt-frontend	1	grunt	:grunt                          
+pane	0	0	:grunt	1	:*	1	:/home/oliver/Development/smt/smt-api	0	vim	:vim
+pane	0	0	:grunt	1	:*	2	:/home/oliver/Development/smt/smt-api	0	python	:python smt_api/manage.py runserver 5000
+pane	1	0	:bash	1	:*	0	:/home/oliver	1	vim	:vim
+window	0	0	1	:*	0fe0,271x64,0,0[271x42,0,0,3,271x21,0,43{135x21,0,43,1,135x21,136,43,2}]
+window	1	0	1	:*	c0e1,271x64,0,0,4
+state	0	0

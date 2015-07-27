@@ -1,0 +1,12 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver	1	bash	:
+pane	webdevelopment	0	:killergame	1	:*	0	:/home/oliver/Development/killergame	0	vim	:vim
+pane	webdevelopment	0	:killergame	1	:*	1	:/home/oliver/Development/killergame	1	ruby	:less
+ruby /usr/bin/heroku run python manage.py test
+pane	webdevelopment	0	:killergame	1	:*	2	:/home/oliver/Development/killergame	0	bash	:
+pane	webdevelopment	1	:smt-api	0	:-	0	:/home/oliver/Development/smt/smt-api	1	ssh	:ssh www@odk.seemytree.se tail -f /var/log/tomcat6/catalina.out
+pane	webdevelopment	1	:smt-api	0	:-	1	:/	0	bash	:
+pane	webdevelopment	1	:smt-api	0	:-	2	:/home/oliver/Development/smt/smt-api	0	vim	:vim
+window	0	0	1	:*	ae5e,80x23,0,0,1
+window	webdevelopment	0	1	:*	32d8,205x57,0,0[205x44,0,0,2,205x12,0,45{110x12,0,45,3,94x12,111,45,4}]
+window	webdevelopment	1	0	:-	733a,205x57,0,0[205x44,0,0,5,205x12,0,45{110x12,0,45,6,94x12,111,45,7}]
+state	webdevelopment	0

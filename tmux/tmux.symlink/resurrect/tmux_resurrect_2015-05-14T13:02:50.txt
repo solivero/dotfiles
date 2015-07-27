@@ -1,0 +1,7 @@
+pane	0	0	:bash	1	:*	0	:/home/oliver/Development/smt/smt-frontend	1	bash	:
+pane	0	0	:bash	1	:*	1	:/home/oliver/Development/smt/smt-frontend	0	vim	:vim
+pane	0	0	:bash	1	:*	2	:/home/oliver/Development/smt/smt-api	0	bash	:
+pane	1	0	:bash	1	:*	0	:/home/oliver	1	bash	:
+window	0	0	1	:*	035e,80x23,0,0[80x20,0,0,1,80x2,0,21{39x2,0,21,2,40x2,40,21,3}]
+window	1	0	1	:*	ae61,80x23,0,0,4
+state	0	0
