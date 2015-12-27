@@ -1,5 +1,4 @@
 " Load bundles
-execute pathogen#infect()
 set syntax
 set smartindent
 set tabstop=4
@@ -9,6 +8,24 @@ set number
 set t_Co=256
 set splitbelow
 set splitright
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugituve'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-obsession'
+Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
+" Remember to compile after installation
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+Plugin 'klen/python-mode'
+call vundle#end()
+filetype plugin on
+
 
 " Set colorscheme if in gVim
 if has("gui_running")
@@ -31,7 +48,6 @@ imap Ö {
 imap Ä }
 
 " Remap Leader
-filetype plugin on
 let mapleader=","
 set timeout timeoutlen=1500
 inoremap <CTRL-C> <Esc>
@@ -46,11 +62,3 @@ let g:NERDTreeIgnore = ['\.pyc$']
 let g:pymode=1
 let g:pymode_folding=0
 let g:pymode_rope=0
-
-" DragVisuals
-runtime plugin/dragvisuals.vim
-vmap  <expr>  <LEFT>   DVB_Drag('left')
-vmap  <expr>  <RIGHT>  DVB_Drag('right')
-vmap  <expr>  <DOWN>   DVB_Drag('down')
-vmap  <expr>  <UP>     DVB_Drag('up')
-vmap  <expr>  D        DVB_Duplicate()
