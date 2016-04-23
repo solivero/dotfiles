@@ -23,6 +23,7 @@ Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
+Plugin 'LatTeX-Box-Team/LaTeX-Box'
 call vundle#end()
 filetype plugin on
 
