@@ -7,3 +7,5 @@ atom.symlink/storage
 atom.symlink/themes
 
 git/gitconfig.symlink
+tmux/tmux.symlink/resurrect/
+vim/vim.symlink/bundle/
