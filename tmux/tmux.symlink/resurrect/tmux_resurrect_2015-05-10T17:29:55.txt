@@ -1,7 +1,0 @@
-pane	0	0	:ruby	1	:*	0	:/home/oliver/Development/smt/smt-frontend	1	ruby	:ruby /usr/bin/heroku login
-pane	0	0	:ruby	1	:*	1	:/home/oliver/Development/smt/smt-api	0	python	:python smt_api/manage.py runserver 5000
-pane	0	0	:ruby	1	:*	2	:/home/oliver/Development/smt/smt-frontend	0	grunt	:grunt                          
-pane	1	0	:bash	1	:*	0	:/home/oliver	1	bash	:
-window	0	0	1	:*	035e,80x23,0,0[80x20,0,0,1,80x2,0,21{39x2,0,21,2,40x2,40,21,3}]
-window	1	0	1	:*	ae61,80x23,0,0,4
-state	0	0

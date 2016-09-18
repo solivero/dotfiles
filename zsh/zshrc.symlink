@@ -86,6 +86,8 @@ source $ZSH/oh-my-zsh.sh
 #
 alias tmux='tmux -2'
 
+eval "$(thefuck --alias)"
+
 
 export NPM_PACKAGES="/home/oliver/.npm-packages"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules${NODE_PATH:+:$NODE_PATH}"

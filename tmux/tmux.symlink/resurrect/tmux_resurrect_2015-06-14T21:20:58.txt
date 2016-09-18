@@ -1,7 +1,0 @@
-pane	0	0	:python	1	:*	0	:/home/oliver/Development/smt/smt-frontend	0	bash	:
-pane	0	0	:python	1	:*	1	:/home/oliver/Development/smt/smt-api	1	python	:python smt_api/manage.py runserver 5000
-pane	0	0	:python	1	:*	2	:/home/oliver/Development/smt/smt-api	0	vim	:vim
-pane	1	0	:bash	1	:*	0	:/home/oliver	1	vim	:vim
-window	0	0	1	:*	bfe5,237x55,0,0[237x36,0,0,1,237x18,0,37{118x18,0,37,3,118x18,119,37,2}]
-window	1	0	1	:*	b461,88x33,0,0,4
-state	0	0

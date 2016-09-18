@@ -1,4 +1,0 @@
-pane	0	0	:vim	1	:*	0	:/home/oliver/Development/smt/smt-api	1	vim	:vim
-pane	0	0	:vim	1	:*	1	:/home/oliver/Development/smt/smt-api/smt_api	0	python	:python manage.py runserver
-window	0	0	1	:*	5175,205x51,0,0[205x33,0,0,0,205x17,0,34,1]
-state	0	

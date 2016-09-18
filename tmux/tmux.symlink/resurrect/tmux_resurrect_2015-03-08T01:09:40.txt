@@ -1,5 +1,0 @@
-pane	webdevelopment	0	:bash	1	:*	0	:/home/oliver/Development/killergame	0	vim	:vim -S
-pane	webdevelopment	0	:bash	1	:*	1	:/home/oliver/Development/killergame	0	bash	:
-pane	webdevelopment	0	:bash	1	:*	2	:/home/oliver/Development/killergame	1	bash	:
-window	webdevelopment	0	1	:*	a07b,205x57,0,0[205x42,0,0,0,205x14,0,43{102x14,0,43,3,102x14,103,43,4}]
-state	webdevelopment	
