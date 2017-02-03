@@ -38,6 +38,8 @@ ENABLE_CORRECTION="true"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="dd.mm.yyyy"
 
+HISTFILESIZE=1000000
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 #
@@ -67,7 +69,6 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -85,12 +86,13 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 alias tmux='tmux -2'
+alias -g kthgit='gits-15.sys.kth.se'
 alias gits='git status -s'
 
 eval "$(thefuck --alias)"
 
 
-export NPM_PACKAGES="/home/oliver/.npm-packages"
+export NPM_PACKAGES="$HOME/.npm-packages"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules${NODE_PATH:+:$NODE_PATH}"
 export PATH="$NPM_PACKAGES/bin:$PATH"
 # Unset manpath so we can inherit from /etc/manpath via the `manpath`
