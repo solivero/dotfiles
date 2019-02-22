@@ -54,7 +54,7 @@ plugins=(git npm debian virtualenvwrapper) #pip python
 
 # User configuration
 
-export PATH="/home/oliver/local/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/home/oliver/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export PATH=$HOME/node/bin:$HOME/.npm-packages/bin:$PATH
