@@ -1,0 +1,54 @@
+# Sample gitconfig
+#
+
+[hub]
+        protocol = https
+[user]
+        name = Oliver Petri
+        email = oliver.ce.petri@gmail.com
+[credential]
+        helper = cache
+[alias]
+        count   = !git shortlog -sn
+        co = checkout
+        cob = checkout -b
+        coo = !git fetch && git checkout
+        br = branch
+        merged = branch --merged
+        dmerged = "git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+        st = status
+        sst = status --short
+        aa = add -A .
+        ap = add -p
+        cm = commit -m
+        cp = cherry-pick
+        amend = commit --amend -m
+        dev = !git checkout dev && git pull origin dev
+        production = !git checkout production && git pull origin production
+        unstage = reset --soft HEAD^
+        ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+        ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+        la = "!git config -l | grep alias | cut -c 7-"
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+        editor = vim
+[apply]
+        whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
+[push]
+        # See `git help config` (search for push.default)
+        # for more information on different options of the below setting.
+        #
+        # Setting to git 2.0 default to suppress warning message
+        default = simple
